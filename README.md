@@ -131,4 +131,4 @@ And of course you can find alot more about it here in the datasheet : [BB21F15](
 
 # Hardware
 ## Starting with the Schematic:
-![Blue Robotics Basic ESC Schematic]()
+![Blue Robotics Basic ESC Schematic](https://github.com/MazenGomaa/Blue-Robotics-Basic-ESC-hardware/blob/main/Hardware/Schamatic/Schematic_Basic%20ESC_2023-04-21.png)
