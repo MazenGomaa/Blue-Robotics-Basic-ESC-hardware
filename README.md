@@ -14,7 +14,7 @@ The Basic ESC is using the SiLabs Version of this software, since the main micro
 
 ### The EFM8BB21F16G-QFN20 Where:
 > The EFM8 is for: Silicon Labs EFM8 Product Line
-> The BB2 is the: Busy Bee 2 Family
+ The BB2 is the: Busy Bee 2 Family
 > The "1" is for: Family Feature Set (the 1s Fam)
 > The "F": Memory type (Flash)
 > The "16": Memory size - 16KB
