@@ -16,23 +16,23 @@ Our Basic ESC is using the SiLabs Version of this Firmware, since the main micro
 
 ## The EFM8BB21F16G-QFN20
 ### Where:
->The EFM8 is for: Silicon Labs EFM8 Product Line
+The EFM8 is for: Silicon Labs EFM8 Product Line
 
->The BB2 is the: Busy Bee 2 Family
+The BB2 is the: Busy Bee 2 Family
 
->The "1" is for: Family Feature Set (the 1s Fam)
+The "1" is for: Family Feature Set (the 1s Fam)
 
->The "F": Memory type (Flash)
+The "F": Memory type (Flash)
 
->The "16": Memory size - 16KB
+The "16": Memory size - 16KB
 
->The "G": Temperature Grade (-40 to +85)
+The "G": Temperature Grade (-40 to +85)
 
->And the QFN20 is for the physical component package type
+And the QFN20 is for the physical component package type
 
 
 
-### And here is a not so short snippet about this beefy tiny little bugger: 
+## Here is a not so short snippet about this beefy tiny little bugger: 
 
 ### Core:
 
@@ -149,13 +149,13 @@ https://www.company-listing.org/favourite_electronics_shenzhen_co_ltd.html
 
 Ah yes, A 1st grade Chinese product, what did you expect? apparently, blue robotics just relabeled it
 
-### The Schematic:
+## The Schematic:
 
-I use EasyEDA when reverse engineering because it's fast, simple, and has all footprints and is really simple to use
+I use EasyEDA when reverse engineering because it's fast, simple, and has all footprints and is really fast to use
 
 And also because i want to piss someone off
 
-Anyway, i exported the EasyEDA project Json file and an Altium schDoc file that can be found in the main directory
+Anyway, i exported the EasyEDA project Json file and an Altium schDoc file that can be found within the main directory
 
 ![Schematic_Basic ESC_2023-04-21](https://user-images.githubusercontent.com/87239688/233785809-f06f5444-1baf-4803-976b-19826259d42f.png)
 
@@ -194,6 +194,47 @@ while testing, some notable weird behavior was noticed:
 
 
 
-### The PCB:
+## The PCB:
+
+##  The board without components
+
+Top
+
+![top_blank](https://user-images.githubusercontent.com/87239688/233787368-c58678e3-ad7f-4d1a-b623-f408337993b7.jpg)
+
+Buttom
+
+![buttom_blank](https://user-images.githubusercontent.com/87239688/233787373-285d4c80-c785-4e6e-bf47-87a4173064ef.jpg)
+
+## With some components
+
+Top with all components except for buffer caps
+
+![topWregs](https://user-images.githubusercontent.com/87239688/233787487-4f47cb39-3ceb-430f-ad5e-f0d93745a794.jpg)
+
+Without buffer caps and regulators
+
+![topWOregs](https://user-images.githubusercontent.com/87239688/233787493-2750f9a3-ce31-45fd-89bb-39101e810165.jpg)
+
+Without all caps and regulators
+
+![topWOcaps Regs](https://user-images.githubusercontent.com/87239688/233787496-c8c3cc02-1441-4b2e-a191-033ce53ff017.jpg)
+
+Buttom
+
+![buttom](https://user-images.githubusercontent.com/87239688/233787548-c7a52f02-60a1-49bf-9613-f90b40b1f5bb.jpg)
 
 
+## The Board Marked With Components And Connections
+
+Top
+
+![top_marked](https://user-images.githubusercontent.com/87239688/233787418-4b8fb4a9-23b7-4068-8861-65671117e23f.png)
+
+Buttom
+
+![buttom_blank_Marked](https://user-images.githubusercontent.com/87239688/233787425-c2e40063-68e0-4d37-a3dd-c29a1aa8f700.png)
+
+
+
+### The end, I hope you find all this info useful, funny enough you can actually make your own ESC with your own brand and name with this info, not that i already planned to do that or something, baka.
