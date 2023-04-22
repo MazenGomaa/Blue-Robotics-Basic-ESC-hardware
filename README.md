@@ -6,7 +6,7 @@ and also add more information about it here
 
 So here we go:
 
-## Software
+# Software
 
 The Basic ESC is using a firmware called BLHeli, you can find All information and source code about it here : https://github.com/bitdump/BLHeli , turns out, this firmware is actually quite very famous and is used for lots of other ESCs in the market, Which is nice since it's open source with all the support and all
 
