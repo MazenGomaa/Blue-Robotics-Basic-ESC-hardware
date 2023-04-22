@@ -149,19 +149,13 @@ https://www.company-listing.org/favourite_electronics_shenzhen_co_ltd.html
 
 Ah yes, A 1st grade Chinese product, what did you expect? apparently, blue robotics just relabeled it
 
-# Behavior
-while testing, some notable behavior was noticed:
-
-- at very low speeds at about 1550uS the motor dose not spin constantly, instead it just starts and stops, this is happening due to the way this ESC is designed, since it's a Sensorless 
-
-
 ### The Schematic:
 
-I use EasyEDA when reverse engineering because it's fast, simple, and has all footprints and is really simple tu use
+I use EasyEDA when reverse engineering because it's fast, simple, and has all footprints and is really simple to use
 
 And also because i want to piss someone off
 
-Anyway, i also exported the EasyEDA Json
+Anyway, i exported the EasyEDA project Json file and an Altium schDoc file that can be found in the main directory
 
 ![Schematic_Basic ESC_2023-04-21](https://user-images.githubusercontent.com/87239688/233785809-f06f5444-1baf-4803-976b-19826259d42f.png)
 
@@ -186,6 +180,17 @@ The MOSFET driver IC then drives the Gates of those big power MOSFETs, and the M
 - Putting two MOSFETs in parallel generates less heat and reduce overall power loss since both of them share the load current, thats a good one.
 
 - In the FD6288 Motor driver datasheet, it is recommended to add a resistor for each gate of the power MOSFETs since at high frequencies, the gate capacitance will draw some current and that will cause the MOSFET driver IC to heat up, THIS IS A BAD ONE, because this is a one big reason why these ESCs die after sometime.
+
+
+## Behavior
+while testing, some notable weird behavior was noticed:
+
+- At very low speeds at about 1550uS the motor dose not spin constantly, instead it just starts and stops, this is happening due to the way this ESC is designed, since it's a Sensorless 
+
+- When  you go from high speed to a halt state, i.e 1700 then 1500, the ESC will start a brake function by driving the BLDC motor in the reveres direction for a brief moment before completely stopping, in another words, it'll consume a LOT of current to stop a motor than starting it, It's a very effective way to stop the motor but very very risky 
+
+- When Changing speed, the ESC wants to match the feedback signal from the motor as close as possible to the given PWM signal, to do that, if you went from higher speeds to lower speeds, it will do that brake thingy agin, it'll try to forcibly rotate the motor in reverse for a brief moment in order to slow it down juuuuust enough so it matches the preset lower speed and then it'll continue to run the motor from that speed, this means that when you go from higher speed to lower speed, current consumption will spike really high before settling on idel again.
+
 
 
 
