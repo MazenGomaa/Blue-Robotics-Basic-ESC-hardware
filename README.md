@@ -26,8 +26,6 @@ blue robotics just buys it from chinese vendors (Who are also selling the excat 
 
 The Basic ESC is using a firmware called BLHeli, you can find All information and source code about it here : https://github.com/bitdump/BLHeli , turns out, this firmware is actually quite very famous and is used for lots of other ESCs in the market, Which is nice since it's open source with all the support and all
 
-I also included the entire repo, you can find it in the BLHeli-master folder
-
 In the mentioned repo you can actually find a PC and even an android app for Atmel ESCs, Pretty cool
 
 The firmware is written in assembly and is located [here](https://github.com/bitdump/BLHeli/tree/master/Vendor%20specific%20versions/FVT) within that repo and ours is the FVT_40A , yes it was originally labeled as 40A
