@@ -10,6 +10,8 @@ So here we go:
 
 The Basic ESC is using a firmware called BLHeli, you can find All information and source code about it here : https://github.com/bitdump/BLHeli , turns out, this firmware is actually quite very famous and is used for lots of other ESCs in the market, Which is nice since it's open source with all the support and all
 
+i also included the entire repo, you can find it in the BLHeli-master folder
+
 In the mentioned repo you can actually find a PC and even an android app for Atmel ESCs, pretty cool
 
 Our Basic ESC is using the SiLabs Version of this Firmware, since the main micro is a SiLabs Busy Bee part The EFM8BB21F16G-QFN20
