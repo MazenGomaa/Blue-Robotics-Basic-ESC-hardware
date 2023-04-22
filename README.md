@@ -5,11 +5,22 @@ So i decided to reverse engineer the blue robotics' [Basic ESC](https://bluerobo
 and also add more information about it here
 
 # So here we go:
-First lets talk about what blue robotics did
+### First lets talk about what that ESC:
 
-They bought a chinese product, relabled it as theirs and then $$$$ 
+The original name of that ESC was { FVT LittleBee-Spring Dshot Blheli_S BB2 ESC 40A }
 
+The original designer and maker company is Favourite Electronics (Shenzhen) Co., Ltd i will add more info about them below
 
+AND THIS ESC WAS ORIGINALLY DESIGNED FOR RC PLANES AND CARS AND QUADCOPTERS
+
+Also here's some links for the original prouduct:
+
+- https://ar.banggood.com/Favourite-FVT-LittleBee-Spring-40A-ESC-Blheli_S-Dshot-2-6S-Mulitshot-Oneshot42-OneShot125-p-1121993.html?imageAb=1&cur_warehouse=CN&a=1682172145.1037&DCC=EG&currency=USD&akmClientCountry=EG&akmClientCountry=EG
+- IT COSTS 17$ ffs : https://www.65drones.com/products/fvt-littlebee-spring-30ax4-dshot-blheli_s-bb2-30a-2-4s-4-in-1-esc-with-5v-12v-bec-support-d-shot?variant=34962193038
+- https://www.aliexpress.com/item/32827426525.html?gatewayAdapt=glo2ara
+- https://www.aliexpress.com/item/1005001531112709.html
+
+blue robotics just buys it from chinese vendors (Who are also selling the excat same thing btw) and just relable it
 
 # Software
 
