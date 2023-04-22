@@ -157,7 +157,15 @@ while testing, some notable behavior was noticed:
 
 ### The Schematic:
 
-![Blue Robotics Basic ESC Schematic](https://github.com/MazenGomaa/Blue-Robotics-Basic-ESC-hardware/blob/main/Hardware/Schamatic/Schematic_Basic%20ESC_2023-04-21.png)
+I use EasyEDA when reverse engineering because it's fast, simple, and has all footprints and is really simple tu use
+
+And also because i want to piss someone off
+
+Anyway, i also exported the EasyEDA Json
+
+![Schematic_Basic ESC_2023-04-21](https://user-images.githubusercontent.com/87239688/233785809-f06f5444-1baf-4803-976b-19826259d42f.png)
+
+
 
 ## This design:
 
