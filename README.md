@@ -195,7 +195,7 @@ while testing, some notable weird behavior was noticed:
 
 
 ## The PCB:
-
+A 4 layer FR4 Board with a black solder mask
 ##  The board without components
 
 Top
