@@ -1,13 +1,14 @@
 # Blue-Robotics-Basic-ESC
+![](https://bluerobotics.com/wp-content/uploads/2017/11/BESC30-R3-2.jpg)
 
-So i took some time and you know, braid, and decided to reverse engineer the blue robotics' [Basic ESC](https://bluerobotics.com/store/thrusters/speed-controllers/besc30-r3/)
-and then decided to put all information about it here
+So i decided to reverse engineer the blue robotics' [Basic ESC](https://bluerobotics.com/store/thrusters/speed-controllers/besc30-r3/)
+and also add more information about it here
 
 So here we go:
 
 ## Software
 
-The Basic ESC is using a firmware called BLHeli, you can find any information about it here : https://github.com/bitdump/BLHeli , turns out, this firmware is actually quite very famous and is used for lots of other ESCs in the market, Which is nice since it's open source with all the support and all
+The Basic ESC is using a firmware called BLHeli, you can find All information and source code about it here : https://github.com/bitdump/BLHeli , turns out, this firmware is actually quite very famous and is used for lots of other ESCs in the market, Which is nice since it's open source with all the support and all
 
 In the mentioned repo you can actually find a PC and even an android app for Atmel ESCs, pretty cool
 
@@ -130,5 +131,32 @@ byte boundaries
 And of course you can find alot more about it here in the datasheet : [BB21F15](https://www.silabs.com/documents/public/data-sheets/efm8bb2-datasheet.pdf)
 
 # Hardware
-### Starting with the Schematic:
+Since the website of the original hardware designer is no longer available, and i also happen to be a good stalker, did some searching and found their:
+
+Facebook page at: https://www.facebook.com/FVTChina/ 
+
+Email: jennyxcy2008@gmail.com
+
+Some Websites about the company Favourite Electronics (Shenzhen) Co., Ltd:
+
+https://www.made-in-china.com/showroom/jennyxcy2008
+
+http://www.91103.tradebig.com/
+
+https://www.listofcompaniesin.com/Favourite_Electronics_Shenzhen_Co_Ltd_Company_1881385.html
+
+https://www.company-listing.org/favourite_electronics_shenzhen_co_ltd.html
+
+Ah yes, A 1st grade Chinese product, what did you expect? apparently, blue robotics just relabeled it
+
+### The PCB:
+
+
+
+
+
+
+
+
 ![Blue Robotics Basic ESC Schematic](https://github.com/MazenGomaa/Blue-Robotics-Basic-ESC-hardware/blob/main/Hardware/Schamatic/Schematic_Basic%20ESC_2023-04-21.png)
+
