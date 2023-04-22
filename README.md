@@ -15,7 +15,7 @@ THIS ESC WAS ORIGINALLY DESIGNED FOR RC PLANES AND CARS AND QUADCOPTERS
 
 Also here's some links for the original prouduct:
 
-- https://ar.banggood.com/Favourite-FVT-LittleBee-Spring-40A-ESC-Blheli_S-Dshot-2-6S-Mulitshot-Oneshot42-OneShot125-p-1121993.html?imageAb=1&cur_warehouse=CN&a=1682172145.1037&DCC=EG&currency=USD&akmClientCountry=EG&akmClientCountry=EG
+- [banggood)[ https://ar.banggood.com/Favourite-FVT-LittleBee-Spring-40A-ESC-Blheli_S-Dshot-2-6S-Mulitshot-Oneshot42-OneShot125-p-1121993.html?imageAb=1&cur_warehouse=CN&a=1682172145.1037&DCC=EG&currency=USD&akmClientCountry=EG&akmClientCountry=EG ]
 - IT COSTS 17$ ffs : https://www.65drones.com/products/fvt-littlebee-spring-30ax4-dshot-blheli_s-bb2-30a-2-4s-4-in-1-esc-with-5v-12v-bec-support-d-shot?variant=34962193038
 - https://www.aliexpress.com/item/32827426525.html?gatewayAdapt=glo2ara
 - https://www.aliexpress.com/item/1005001531112709.html
