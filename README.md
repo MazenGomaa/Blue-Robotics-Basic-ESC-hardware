@@ -149,14 +149,40 @@ https://www.company-listing.org/favourite_electronics_shenzhen_co_ltd.html
 
 Ah yes, A 1st grade Chinese product, what did you expect? apparently, blue robotics just relabeled it
 
-### The PCB:
+# Behavior
+while testing, some notable behavior was noticed:
+
+- at very low speeds at about 1550uS the motor dose not spin constantly, instead it just starts and stops, this is happening due to the way this ESC is designed, since it's a Sensorless 
 
 
-
-
-
-
-
+### The Schematic:
 
 ![Blue Robotics Basic ESC Schematic](https://github.com/MazenGomaa/Blue-Robotics-Basic-ESC-hardware/blob/main/Hardware/Schamatic/Schematic_Basic%20ESC_2023-04-21.png)
+
+## This design:
+
+It's straightforward and simple, code is on the main microcontroller chip, the micro controls the MOSFET driver IC while reciving a feedback signal from the phase sense resistor network
+
+(You see, when you drive a bldc you need to know which magnetic pole of the rotor magnets is facing which one of the stator coils so you can always power the correct coil that's facing a magnet of opposite polarity and thus making the motor spin and all, and to do that, the circuit measures the Back EMF that's coming from the motor and calculates what coil will be energized next)
+
+
+The MOSFET driver IC then drives the Gates of those big power MOSFETs, and the MOSFETs drives the bldc motor, the 9 10uf caps acts as power Buffers since once the motor starts it'll draw alot of current and having such high capacitance as close as possible to the MOSFETs is very very important (and in this design i really recommend adding a big 3300uf cap because the damn thing consumes alot current at the start of the motor so much so that the voltage drops below the supply voltage and then it shuts down it self sometimes)
+
+- BLDC motors are brushless (lmao would you believe that?) which means that there's no brushes nor there's a commutator, and this circuit is basically that, A solid state BLDC commutator, this specific ESC utilities a trapezoidal motor control method which means that the output of our ESC is something that looks like this:
+![trap_waveforms](https://www.bacancytechnology.com/blog/wp-content/uploads/2021/08/BLDC-motor-min.jpg)
+
+- This is a very basic way to Drive a BLDC, and it is also the worst due to the issues that this squared waveform is gonna make, not to mention harmonics and inducative losses and such, but hey, it works, just not at low speeds.
+
+- In order for to maintain a good precise feedback signal, a precious <1% resistors are used, which is nice.
+
+- Putting two MOSFETs in parallel generates less heat and reduce overall power loss since both of them share the load current, thats a good one.
+
+- In the FD6288 Motor driver datasheet, it is recommended to add a resistor for each gate of the power MOSFETs since at high frequencies, the gate capacitance will draw some current and that will cause the MOSFET driver IC to heat up, THIS IS A BAD ONE, because this is a one big reason why these ESCs die after sometime.
+
+
+
+### The PCB:
+![]()
+
+
 
