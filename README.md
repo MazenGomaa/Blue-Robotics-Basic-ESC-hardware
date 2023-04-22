@@ -4,17 +4,26 @@
 So i decided to reverse engineer the blue robotics' [Basic ESC](https://bluerobotics.com/store/thrusters/speed-controllers/besc30-r3/)
 and also add more information about it here
 
-So here we go:
+# So here we go:
+First lets talk about what blue robotics did
+
+They bought a chinese product, relabled it as theirs and then $$$$ 
+
+
 
 # Software
 
 The Basic ESC is using a firmware called BLHeli, you can find All information and source code about it here : https://github.com/bitdump/BLHeli , turns out, this firmware is actually quite very famous and is used for lots of other ESCs in the market, Which is nice since it's open source with all the support and all
 
-i also included the entire repo, you can find it in the BLHeli-master folder
+I also included the entire repo, you can find it in the BLHeli-master folder
 
-In the mentioned repo you can actually find a PC and even an android app for Atmel ESCs, pretty cool
+In the mentioned repo you can actually find a PC and even an android app for Atmel ESCs, Pretty cool
+
+The firmware is written in assembly and is located [here](https://github.com/bitdump/BLHeli/tree/master/Vendor%20specific%20versions/FVT) within that repo and ours is the FVT_40A , yes it was originally labeled as 40A
 
 Our Basic ESC is using the SiLabs Version of this Firmware, since the main micro is a SiLabs Busy Bee part The EFM8BB21F16G-QFN20
+
+
 
 ## The EFM8BB21F16G-QFN20
 ### Where:
