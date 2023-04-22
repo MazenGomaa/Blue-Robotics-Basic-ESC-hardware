@@ -2,16 +2,16 @@
 ![](https://bluerobotics.com/wp-content/uploads/2017/11/BESC30-R3-2.jpg)
 
 So i decided to reverse engineer the blue robotics' [Basic ESC](https://bluerobotics.com/store/thrusters/speed-controllers/besc30-r3/)
-and also add more information about it here
+and i also added some more information about it here
 
 # So here we go:
 ### First lets talk about what that ESC:
 
-The original name of that ESC was { FVT LittleBee-Spring Dshot Blheli_S BB2 ESC 40A }
+The original name of it was { FVT LittleBee-Spring Dshot Blheli_S BB2 ESC 40A }
 
-The original designer and maker company is Favourite Electronics (Shenzhen) Co., Ltd i will add more info about them below
+The original designer and maker company is { Favourite Electronics (Shenzhen) Co., Ltd } i will add more info about them below
 
-AND THIS ESC WAS ORIGINALLY DESIGNED FOR RC PLANES AND CARS AND QUADCOPTERS
+THIS ESC WAS ORIGINALLY DESIGNED FOR RC PLANES AND CARS AND QUADCOPTERS
 
 Also here's some links for the original prouduct:
 
@@ -20,9 +20,9 @@ Also here's some links for the original prouduct:
 - https://www.aliexpress.com/item/32827426525.html?gatewayAdapt=glo2ara
 - https://www.aliexpress.com/item/1005001531112709.html
 
-blue robotics just buys it from chinese vendors (Who are also selling the excat same thing btw) and just relable it
+blue robotics just buys it from the chinese vendors (Who also sell the excat same thing btw) and just relable it
 
-# Software
+# Firmware
 
 The Basic ESC is using a firmware called BLHeli, you can find All information and source code about it here : https://github.com/bitdump/BLHeli , turns out, this firmware is actually quite very famous and is used for lots of other ESCs in the market, Which is nice since it's open source with all the support and all
 
