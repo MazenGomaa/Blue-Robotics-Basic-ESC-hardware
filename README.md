@@ -182,7 +182,5 @@ The MOSFET driver IC then drives the Gates of those big power MOSFETs, and the M
 
 
 ### The PCB:
-![]()
-
 
 
