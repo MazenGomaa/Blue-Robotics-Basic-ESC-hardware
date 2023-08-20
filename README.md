@@ -1,4 +1,4 @@
-# Blue-Robotics-Basic-ESC
+# Blue-Robotics-Basic-ESC-hardware
 ![](https://bluerobotics.com/wp-content/uploads/2017/11/BESC30-R3-2.jpg)
 
 So i decided to reverse engineer the blue robotics' [Basic ESC](https://bluerobotics.com/store/thrusters/speed-controllers/besc30-r3/)
