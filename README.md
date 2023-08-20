@@ -20,7 +20,7 @@ Also here's some links for the original prouduct:
 - [aliexpress]( https://www.aliexpress.com/item/32827426525.html?gatewayAdapt=glo2ara )
 - [aliexpress]( https://www.aliexpress.com/item/1005001531112709.html )
 
-blue robotics just buys it from the chinese vendors (Who also sell the excat same thing btw) and just relable it
+
 
 # Firmware
 
