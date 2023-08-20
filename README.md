@@ -257,4 +257,4 @@ Buttom
 
 
 
-### The end, I hope you find all this info useful, funny enough you can actually make your own ESC with your own brand and name with this info, not that i already planned to do that or something, baka.
+### The end, I hope you find all this info useful, funny enough you can actually make your own ESC with your own brand and name with this info, not that i already planned to do that or something, baka, I'll add updates here in the future.
