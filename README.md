@@ -98,8 +98,6 @@ RAM and 2048 bytes on-chip XRAM)
    
    • External CMOS clock option
    
-   like bro WTF amirite?
-   
 ### Timers/Counters and PWM:
 
    • 3-channel Programmable Counter Array (PCA) supporting
@@ -148,10 +146,10 @@ byte boundaries
    • QFN28, QSOP24, and QFN20 packages
    
 
-And of course you can find alot more about it here in the datasheet : [BB21F15](https://www.silabs.com/documents/public/data-sheets/efm8bb2-datasheet.pdf)
+You can find alot more about it here in the datasheet : [BB21F15](https://www.silabs.com/documents/public/data-sheets/efm8bb2-datasheet.pdf)
 
 # Hardware
-Since the website of the original hardware designer is no longer available, and i also happen to be a good stalker, did some searching and found their:
+Did some searching and found their:
 
 Facebook page at: https://www.facebook.com/FVTChina/ 
 
@@ -166,8 +164,6 @@ http://www.91103.tradebig.com/
 [list of companies]( https://www.listofcompaniesin.com/Favourite_Electronics_Shenzhen_Co_Ltd_Company_1881385.html )
 
 https://www.company-listing.org/favourite_electronics_shenzhen_co_ltd.html
-
-Ah yes, A 1st grade Chinese product, what did you expect? apparently, blue robotics just relabeled it
 
 ## The Schematic:
 
